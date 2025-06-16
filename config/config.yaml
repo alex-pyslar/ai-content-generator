@@ -1,0 +1,11 @@
+# configs/config.yaml
+ai:
+  text:
+    model: "Qwen/Qwen3-14B-AWQ"
+    max_tokens_general: 512
+    max_tokens_detailed: 1024
+    temperature: 0.7
+  video:
+    output_format: "mp4"
+    resolution: "1080x1920"
+    fps: 30
